@@ -10,9 +10,9 @@
 
   gtag('config', 'UA-121286932-1');
 </script>
-<!-- Style Modification -->
+<!-- Style Modification for Flexbox-->
 <style>
-  .w3-row {
+.w3-row {
     display: flex;
 }
 .w3-container {
@@ -25,7 +25,6 @@
 <!-- CSS Files -->
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Favicon -->
 <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
@@ -57,7 +56,7 @@
     <p><em>You can only guess</em></p>
     <p style="text-align:justify;">That is where Glyxom Data Portal can help. You will find relevant market data in Glyxom Data Portal that will help you in making the right business decisions.</p>
     <br>
-    <a href="http://eepurl.com/dy0kW5" class="w3-button w3-hover-indigo w3-round-large w3-padding-medium w3-block w3-margin-bottom w3-flat-peter-river w3-text-flat-cloud" style="width:70%;margin:auto"><strong>Try Now</strong></a>
+    <a href="#signup" class="w3-button w3-hover-indigo w3-round-large w3-padding-medium w3-block w3-margin-bottom w3-flat-peter-river w3-text-flat-cloud" style="width:70%;margin:auto">Try Now For Free!</a>
   </div>
 </div>
 </header>
@@ -112,7 +111,7 @@
       <p style="text-align:justify;">One of the information that you can discover in Glyxom Data Portal is what products that have been added to the market and what products that have been removed from the market.</p>
       <p style="text-align:justify;">Combining this information with other data, you can uncover the coming fashion trend and prepare your fashion business to anticipate the changes </p>
       <br>
-      <a href="http://eepurl.com/dy0kW5" class="w3-button w3-hover-indigo w3-round-large w3-padding-medium w3-block w3-margin-bottom w3-flat-peter-river w3-text-flat-cloud" style="width:70%;margin:auto"><strong>Discover Now</strong></a>
+      <a href="#signup" class="w3-button w3-hover-indigo w3-round-large w3-padding-medium w3-block w3-margin-bottom w3-flat-peter-river w3-text-flat-cloud" style="width:70%;margin:auto">Discover Now</a>
   </div>
 </div>
 
@@ -125,7 +124,7 @@
       <p style="text-align:justify;">You will even find out that some apparels with certain colours can be offered with higher price tag</p>
       <br>
       <br>
-      <a href="http://eepurl.com/dy0kW5" class="w3-button w3-hover-indigo w3-round-large w3-padding-medium w3-block w3-margin-bottom w3-flat-peter-river w3-text-flat-cloud" style="width:70%;margin:auto"><strong>Be Inspired</strong></a>
+      <a href="#signup" class="w3-button w3-hover-indigo w3-round-large w3-padding-medium w3-block w3-margin-bottom w3-flat-peter-river w3-text-flat-cloud" style="width:70%;margin:auto">Be Inspired</a>
   </div>
   <div class="w3-center w3-margin w3-padding-small w3-mobile w3-flat-cloud w3-card w3-col">
     <img src="img/Style Analytics.png" class="w3-round" alt="Style Analytics" style="width:100%">
@@ -145,28 +144,50 @@
   </div>
 </div>
 
-<!-- Seventh Row and Final CTA-->
+<!-- Seventh Row and Form Submission-->
 <div class="w3-row">
-  <div class="w3-center w3-margin w3-padding-small w3-mobile w3-flat-belize-hole w3-text-flat-cloud w3-card" style="width:140%">
+  <div class="w3-center w3-margin w3-padding-small w3-mobile w3-flat-emerald w3-text-flat-cloud w3-card" style="width:140%">
     <h2 style="text-align:left;line-height:1;"><strong>The Era of Data-Driven Fashion Business</strong></h2>
     <div style="text-align:justify;">
       <p>Big players in Fashion Industry like Zara and H&M are all planning their business based on data collected from the market and from their own sales</p>
       <p>Fashion businesses who are relatively small or just starting up, usually allocate very few resources to collect market data and analyze it, despite the fact that by doing so, they will accelerate their growth and make their businesses more profitable</p>
-    </div>
-  </div>
-  <div class="w3-center w3-card w3-margin w3-padding-small w3-mobile w3-flat-belize-hole w3-text-flat-cloud w3-col">
-    <div style="text-align:justify;">
       <p><strong>Glyxom Data Portal</strong> collects those data for you so you can still focus your efforts on creating and selling your products, but now, with minimum effort, you can also analyze fashion market.</p>
-      <p>And this will unlock new opportunities for your business.</p>
+      <p><em>And unlock new opportunities for your business.</em></p>
     </div>
-    <br>
-    <a href="http://eepurl.com/dy0kW5" class="w3-button w3-hover-purple w3-round-large w3-large w3-padding-medium w3-block w3-margin-bottom w3-flat-nephritis w3-text-flat-cloud" style="width:90%;margin:auto"><strong>Try Now</strong></a>
+  </div>
+
+  <!--Embedded Form-->
+  <div class="w3-left w3-card w3-margin w3-mobile w3-flat-peter-river w3-text-flat-cloud w3-col">
+    <div class="w3-container w3-padding-small">
+      <h4 style="text-align:center;line-height:1;" id="signup">Register now and get Free Beta Access</h4>
+    </div>
+    <form class="w3-container w3-white" action="https://glyxom.us6.list-manage.com/subscribe/post" method="POST">
+      <input type="hidden" name="u" value="98714f1440f606802f2a93bd3">
+      <input type="hidden" name="id" value="594d93006d">
+      <br>
+      <label style="text-align: left">First Name</label>
+      <input class= "w3-input" type="text" name="MERGE1" id="MERGE1" size="25" value="">
+
+      <label>Last Name</label>
+      <input class="w3-input" type="text" name="MERGE2" id="MERGE2" size="25" value="">
+
+      <label>Email Address</label>
+      <input class="w3-input" type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="">
+
+      <br>
+      <br>
+      <!--Submit Button-->
+      <div>
+        <input type="submit" class="w3-button w3-hover-purple w3-round-large w3-large w3-padding-medium w3-block w3-margin-bottom w3-flat-nephritis w3-text-flat-cloud"  name="submit" value="Submit">
+      </div>
+    </form>
+
   </div>
 </div>
 
+</div>
+</div>
 
-</div>
-</div>
 
 <!-- Footer -->
 
